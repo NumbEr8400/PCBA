@@ -1,0 +1,15 @@
+server/
+├── static/              # 静态资源目录
+│   └── index.html       # 前端页面
+├── __pycache__/         # Python 编译缓存目录
+├── .venv/               # 虚拟环境目录
+├── .idea/               # IDE 配置目录
+├── main.py              # FastAPI 入口文件
+├── parsers.py           # PDF 解析逻辑
+├── graph_db.py          # Neo4j 集成
+├── ai_agent.py          # Qwen API 调用
+├── requirements.txt     # 依赖列表
+├── README.md            # 项目说明
+├── 说明.txt             # 中文说明文件
+├── .env                 # 环境变量配置文件
+└── .env.example         # 环境变量模板文件
